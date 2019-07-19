@@ -1,22 +1,17 @@
 ---
-title: Adding assets and images
-short-title: Assets and images
+title: 에셋과 이미지 추가하기
+short-title: 에셋과 이미지
 ---
 
-Flutter apps can include both code and _assets_ (sometimes called
-resources). An asset is a file that is bundled and deployed with your
-app, and is accessible at runtime. Common types of assets include
-static data (for example, JSON files), configuration files, icons, and
-images (JPEG, WebP, GIF, animated WebP/GIF, PNG, BMP, and WBMP).
+플러터 앱은 코드와 _에셋_(리소스라고도 불린다)을 둘다 포함할 수 있다.
+에셋이란 파일은 당신의 앱에 포함되어 배포되며, 런타임 중에 접근이 가능합니다.
+에셋의 주된 타입으로는 정적 데이터(예를 들면, JSON 파일), configuration 파일, 아이콘, 이미지 (JPEG, WebP, GIF, 움직이는 WebP/GIF, PNG, BMP와 WBMP) 가 있습니다.
 
-## Specifying assets
+## 구체적인 에셋들
 
-Flutter uses
-the [`pubspec.yaml`]({{site.dart-site}}/tools/pub/pubspec) file,
-located at the root of your project, to identify assets required by an
-app.
+플러터는 당신의 프로젝트의 최상위에 위치한 [`pubspec.yaml`]({{site.dart-site}}/tools/pub/pubspec) 파일을 앱이 요구하는 에셋을 식별하고자 사용합니다.
 
-Here is an example:
+예시 :
 
 ```yaml
 flutter:
@@ -27,6 +22,7 @@ flutter:
 
 To include all assets under a directory, specify the directory name with
 the `/` character at the end:
+
 
 ```yaml
 flutter:
