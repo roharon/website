@@ -4,8 +4,8 @@ gem 'activesupport'
 gem 'autoprefixer-rails'
 gem 'bootstrap'
 gem 'font-awesome-sass'
-gem 'jekyll', '~> 3.8.4'
-gem 'jekyll-assets', group: :jekyll_plugins
+gem 'jekyll', '~> 4.0.0'
+gem 'jekyll-assets', '>= 3.0.12', group: :jekyll_plugins
 gem 'jekyll-toc',
   # :path => '~/git/dart/jekyll-toc'
   :git => 'https://github.com/chalin/jekyll-toc.git',
