@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'activesupport'
 gem 'autoprefixer-rails'
-gem 'bootstrap'
+gem 'bootstrap', '>= 4.3.1'
 gem 'font-awesome-sass'
 gem 'jekyll', '~> 3.8.4'
 gem 'jekyll-assets', group: :jekyll_plugins
